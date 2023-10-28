@@ -104,17 +104,18 @@
   box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.4);
   transform: scale(1.2);
   transition: all 1s ease;
-  background: linear-gradient(270deg, #2f987d, #4190bd, #d29b2d, #4bd22d, #d2692d, #9e2dd2, #d22daf, #3f2dd2);
-  background-size: 1600% 1600%;
-  -webkit-animation: ColorChanger 20s ease infinite;
+  /*background: linear-gradient(270deg, #2f987d, #4190bd, #d29b2d, #4bd22d, #d2692d, #9e2dd2, #d22daf, #3f2dd2);*/
+  background: #ffffff;
+  /*background-size: 1600% 1600%;*/
+  /*-webkit-animation: ColorChanger 20s ease infinite;
   -moz-animation: ColorChanger 20s ease infinite;
-  animation: ColorChanger 20s ease infinite; 
+  animation: ColorChanger 20s ease infinite; */
 }
-.player .album-art.active::before {
+/*.player .album-art.active::before {
   animation: rotation 3s infinite linear;
   -webkit-animation: rotation 3s infinite linear;
   animation-fill-mode: forwards;
-}
+}*/
 
 @-webkit-keyframes ColorChanger {
     0%{background-position:0% 50%}
